@@ -1,7 +1,7 @@
 ## Interface: 70000
 ## Author: Ingenium@EU-Blackmoore
 ## Title: TankCDs
-## Version: 1.0.1
+## Version: 1.0.2
 ## SavedVariablesPerCharacter: TankCDsOptions
 ## Notes: Displays external Tank CDs
 ## X-Embeds: LibGroupInSpecT-1.1
