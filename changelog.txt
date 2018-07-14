@@ -1,0 +1,24 @@
+2015-02-06 TankCDs v0.1.0
+initial release
+
+2015-02-08 TankCDs v0.1.1
+* two new commands: toggle (to show/hide the frame) and hideself (to show/hide the player's CDs)
+* now using r77 of LibGroupInSpecT
+
+2015-02-26 TankCDs v0.1.2
+* toc bump
+
+2016-07-19 TankCDs v1.0.0
+* tagged as Release
+* Legion ready
+* use quick fix update of LibGroupInSpecT r79
+* TOC bump
+
+2016-07-29 TankCDs v1.0.1
+* Ironbark 90sec CD, talented 60sec
+* Life Cocoon 180sec CD
+* Blessing of Sacrifice holy and protection exclusive, 150sec CD
+
+2018-07-14 TankCDs v1.0.2
+* update to LibGroupInSpecT r92
+

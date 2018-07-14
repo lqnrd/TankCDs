@@ -1,0 +1,15 @@
+## Interface: 70000
+## Author: Ingenium@EU-Blackmoore
+## Title: TankCDs
+## Version: 1.0.1
+## SavedVariablesPerCharacter: TankCDsOptions
+## Notes: Displays external Tank CDs
+## X-Embeds: LibGroupInSpecT-1.1
+## OptionalDeps: LibGroupInSpecT-1.1
+#@no-lib-strip@
+Libs\LibGroupInSpecT-1.1\Libs\LibStub\LibStub.lua
+Libs\LibGroupInSpecT-1.1\Libs\CallbackHandler-1.0\CallbackHandler-1.0.lua
+Libs\LibGroupInSpecT-1.1\LibGroupInSpecT-1.1.lua
+#@end-no-lib-strip@
+
+TankCDs.lua
