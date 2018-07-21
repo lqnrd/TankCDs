@@ -22,3 +22,7 @@ initial release
 2018-07-14 TankCDs v1.0.2
 * update to LibGroupInSpecT r92
 
+2018-07-21 TankCDs v1.0.3
+* BfA ready
+* TOC bump
+

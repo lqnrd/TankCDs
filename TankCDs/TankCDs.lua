@@ -472,10 +472,10 @@ end
 --http://www.wowinterface.com/forums/showthread.php?t=50020
 --UnitIsDead(unitid)
 --]]
-function frameEvents:COMBAT_LOG_EVENT_UNFILTERED(...)
-  local timestamp, event, hideCaster, sourceGUID, sourceName, sourceFlags, sourceFlags2, destGUID, destName, destFlags, destFlags2 = select(1, ...)
+function frameEvents:COMBAT_LOG_EVENT_UNFILTERED()
+  local timestamp, event, hideCaster, sourceGUID, sourceName, sourceFlags, sourceFlags2, destGUID, destName, destFlags, destFlags2 = CombatLogGetCurrentEventInfo()
   if event == "SPELL_CAST_SUCCESS" then
-    local spellId, spellName, spellSchool = select(12, ...) --from prefix SPELL
+    local spellId, spellName, spellSchool = select(12, CombatLogGetCurrentEventInfo()) --from prefix SPELL
     if spellIDs[spellId] then
       self:startCD(sourceGUID, spellId)
     end
